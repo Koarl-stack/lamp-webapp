@@ -1,0 +1,46 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>Kampaň</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body_bg">
+<div class="icon-bar">
+  <a href="#"><i class="fa fa-home"></i></a> 
+  <a class="active" href="#"> <i class="fa fa-dot-circle-o"></i></a> 
+  <a href="#"><i class="fa fa-check-square-o"></i></a>
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+</div>
+
+<div align="center">
+<h2>VÍTEJTE</h2>
+<p>Zadaný kód byl správný, přilášení bylo úspěšné. Prosím vyberte jednu z následujících variant pro další kontakt s námi a pozorně si přečtěte uvedené informace.</p>
+<form id="approve-form" method="post" action="ulozenimail.php">
+  <table border="0.5" >
+<tr>
+  <td><input type="radio" id="approvalid" name="approval" value="yes">
+  <label for="approval">Souhlasím</label></td>
+  <td><p>Přeji si nadále být kontaktovaná/kontaktovaný prostřednictvím emailu a souhlasím se zpracováním mých osobních údajů v souladu s platnými právními předpisy.
+  Dále potvrzuji, že souhlasím s možností kontaktu za marketingovými účely a výherními soutěžemi.</p></td>
+</tr>
+<tr><td></td>
+  <td><label for="emailp">E-mail</label>
+  <input type="email" name="emailp" id="emailp"></td></tr>
+  <br>
+<tr>
+  <td><input type="radio" id="disapprovalid" name="approval" value="no">
+  <label for="disapproval">Nesouhlasím</label><br></td>
+  <td><p>Nepřeji si sdělit email a nesouhlasím se zpracováním jakýchkoli informací o mé osobě ve smyslu platných právních předpisů. Nechci být kontaktován v rámci dalších marketingových akcí.</p><td>
+    <br>
+      <br>
+</tr>
+<tr>
+  <td><input class="tlacitko" type="submit" id="submit2" value="Potvrdit" /></td></form>
+  <form id="zrusit" action="logout.php" method="post"><td><input  class="tlacitko"  type="submit" value="Zrušit" /></td></form>
+</tr>
+</table>
+</body>
+</html>

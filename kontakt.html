@@ -1,0 +1,56 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>Kampaň</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="body_bg">
+<div class="icon-bar">
+  <a href="index.html"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-dot-circle-o"></i></a> 
+  <a href="#"><i class="fa fa-check-square-o"></i></a>
+  <a class="active" href="#"><i class="fa fa-envelope"></i></a> 
+<!--   <a href="logout.html"><i class="fa fa-power-off"></i></a>  -->
+</div>
+<div align="center">
+
+<div class ="boxy">
+          <div class="box-adresa">
+                <br>
+                <h3>VÁŠ OBCHODNÍ ZÁSTUPCE</h3> 
+                <br>
+               <p>Mgr. Kamil Ječný</p>
+ 			   <p>Hordova 122</p>
+ 				 <p>Pardubice 533 33</p>
+ 				 <br>
+ 				 <p>IČ 123456789</p>
+ 				 <p>tel.: 00420 777 123 456</p>
+                <br>
+                <div class="ikony">
+  				<a href="#"><i class="fa fa-facebook-official"></i></a> 
+ 				 <a href="#"><i class="fa fa-linkedin-square"></i></a> 
+  				</div>
+  				
+          </div>    
+          <div class="box-napistenam">
+           <br>
+          <h3>NAPIŠTE NÁM</h3>
+          <br>
+           <form id="kont_form" class="kontaktni-formular" method="post" action="kontakt_form.php">
+               <label class="kontaktni-formular__popisek">Jméno</label>
+               <p><input name="jmeno" id="jmeno" type="text" placeholder="Zadejte Vaše jméno..." class="kontaktni-formular__text"></p>
+               <label class="kontaktni-formular__popisek">E-mailová adresa</label>
+               <p><input name="email" id="email" type="email" placeholder="Zadejte Váš e-mail..." class="kontaktni-formular__text"></p>
+               <p><textarea name="zprava" id="zprava" placeholder="Zadejte text..." class="kontaktni-formular__text--area"></textarea></p>
+               <input type="submit" class="kontaktni-formular__tlacitko" value="Odeslat" />
+           </form>
+        </div>
+        <div class="float-clear"></div>
+       </div>
+
+</div>
+</body>
+</html>

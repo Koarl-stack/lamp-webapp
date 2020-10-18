@@ -1,0 +1,135 @@
+#body_bg
+{
+background-color:#c5d2cf;
+font-family: Arial, Helvetica, sans-serif;
+color:#587e76;
+}
+
+#login-form, #approve-form, #finale{
+background:#b68474;
+border: 3 px solid #eeeee;
+color: white;
+padding:9px 9px;
+ width:500px;
+ border-radius:5px;
+}
+
+#approve-form{
+width:800px;
+border-radius:10px;
+}
+
+#finale{
+width:900px;
+border-radius:10px;
+}
+
+.hlavni
+{
+padding-top: 4%;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #587e76;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+/* .icon-bar a:hover { */
+/*   background-color: #39524d; */
+/* } */
+
+.ikony a
+{
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  font-size: 36px;
+  color: #587e76;
+  padding: 10px;
+} 
+
+.active {
+  background-color: #b68474;
+}
+
+
+.kontaktni-formular
+{
+ background:#b68474;
+border: 3 px solid #eeeee;
+color: white;
+padding:9px 9px;
+ width:100%;
+ border-radius:5px;
+}
+
+.kontaktni-formular__popisek
+{
+	  margin-left:10%;
+}
+
+.kontaktni-formular__text
+{
+  width: 72%;
+  height: 22%;
+  margin-left:10%;
+}
+
+.kontaktni-formular__text--area
+{
+  margin-top: 12px;
+  margin-left:10%;
+  width: 75%;
+  height: 75px;
+}
+
+
+.tlacitko, .kontaktni-formular__tlacitko
+{
+	background-color: #f0e6e3;
+  border: none;
+  border-radius: 5px;
+  color: #587e76;
+  padding: 5px 28px;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.kontaktni-formular__tlacitko
+{
+  margin-left:10%;
+}
+
+.box-adresa
+{
+  width: 50%;
+  float:left;
+}
+
+.box-napistenam
+{
+  width: 50%;
+  float:right;
+}
+
+.boxy
+{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>Kampaň</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+function odhlas() {	
+    $.get("logout.php");
+    return false;
+}
+</script>
+</head>
+<body id="body_bg" onload="odhlas()">
+<div class="icon-bar">
+  <a href="index.html"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-dot-circle-o"></i></a> 
+  <a class="active" href="#"><i class="fa fa-check-square-o"></i></a>
+  <a href="kontakt.html"><i class="fa fa-envelope"></i></a>
+<!--   <a href="logout.html"><i class="fa fa-power-off"></i></a>  -->
+</div>
+<div align="center">
+<h2>DĚKUJEME ZA VYPLNĚNÍ FORMULÁŘE</h2>
+<table id="finale" border="0.5" >
+<tr>
+<td><p>Byl jste odhlášen. Při  změně Vašeho názoru a potřebě být informován/informována o našich dalších produktech se prosím opět <a href="index.html">přihlašte</a>.</p></td>
+</tr>
+<tr>
+  
+  <td><p>Pro případné otázky neváhejte využít naše specialisty v sekci <a href="kontakt.html">kontakty</a>.</p></td>
+</tr>
+</table>
+</body>
+</html>

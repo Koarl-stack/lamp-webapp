@@ -1,0 +1,40 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>Kampaň</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="body_bg">
+<div class="icon-bar">
+  <a class="
+  active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-dot-circle-o"></i></a> 
+  <a href="#"><i class="fa fa-check-square-o"></i></a>
+  <a href="kontakt.html"><i class="fa fa-envelope"></i></a> 
+<!--   <a href="#"><i class="fa fa-power-off"></i></a>  -->
+  
+</div>
+<div class="hlavni" align="center">
+<h3>PŘIHLAŠOVACÍ STRÁNKA KAMPANĚ ST007</h3>
+    <form id="login-form" name="login-form" method="post" action="authen_login.php" >
+        <table border="0.5" >
+            <tr>
+                <td><label for="birth_num">Rodné číslo</label></td>
+                <td><input type="text" name="birth_num" placeholder="Zadejte Vaše rodné číslo..." id="birth_num"></td>
+            </tr>
+            <tr>
+                <td><label for="code_num">Kód</label></td>
+                <td><input type="password" name="code_num" placeholder="Zadejte kód zaslaný v sms..." id="code_num"></input></td>
+            </tr>
+            <tr>
+                <td><input class="tlacitko" type="submit" value="Potvrdit"/>
+                <td><input class="tlacitko" type="reset" value="Reset"/>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
